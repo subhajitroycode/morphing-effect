@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
-$speed: 12s;
-$word-count: 5;
+$speed: 16s;
+$word-count: 7;
+$font-stack: "Roboto Slab", serif;
 
 *,
 *::after,
@@ -12,14 +13,14 @@ $word-count: 5;
 }
 
 body {
-  font-family: "Roboto Slab", serif;
+  font-family: $font-stack;
 }
 
 .morphing {
   position: relative;
   font-size: 120px;
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   min-height: 100vh;
   filter: contrast(25) blur(1px);
 }

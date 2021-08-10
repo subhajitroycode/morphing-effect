@@ -15,8 +15,8 @@ body {
 .morphing {
   position: relative;
   font-size: 120px;
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   min-height: 100vh;
   -webkit-filter: contrast(25) blur(1px);
           filter: contrast(25) blur(1px);
@@ -28,31 +28,41 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  -webkit-animation: word 12s infinite ease-in-out;
-          animation: word 12s infinite ease-in-out;
+  -webkit-animation: word 16s infinite ease-in-out;
+          animation: word 16s infinite ease-in-out;
 }
 
 .word:nth-child(1) {
+  -webkit-animation-delay: -16s;
+          animation-delay: -16s;
+}
+
+.word:nth-child(2) {
+  -webkit-animation-delay: -14s;
+          animation-delay: -14s;
+}
+
+.word:nth-child(3) {
   -webkit-animation-delay: -12s;
           animation-delay: -12s;
 }
 
-.word:nth-child(2) {
+.word:nth-child(4) {
   -webkit-animation-delay: -10s;
           animation-delay: -10s;
 }
 
-.word:nth-child(3) {
+.word:nth-child(5) {
   -webkit-animation-delay: -8s;
           animation-delay: -8s;
 }
 
-.word:nth-child(4) {
+.word:nth-child(6) {
   -webkit-animation-delay: -6s;
           animation-delay: -6s;
 }
 
-.word:nth-child(5) {
+.word:nth-child(7) {
   -webkit-animation-delay: -4s;
           animation-delay: -4s;
 }
