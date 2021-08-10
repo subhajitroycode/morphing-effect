@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
-*,
-*::after,
-*::before {
+* {
   padding: 0;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -19,7 +17,7 @@ body {
   color: #000;
   min-height: 100vh;
   -webkit-filter: contrast(25) blur(1px);
-          filter: contrast(25) blur(1px);
+  filter: contrast(25) blur(1px);
 }
 
 .word {
@@ -27,44 +25,44 @@ body {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   -webkit-animation: word 16s infinite ease-in-out;
-          animation: word 16s infinite ease-in-out;
+  animation: word 16s infinite ease-in-out;
 }
 
 .word:nth-child(1) {
   -webkit-animation-delay: -16s;
-          animation-delay: -16s;
+  animation-delay: -16s;
 }
 
 .word:nth-child(2) {
   -webkit-animation-delay: -14s;
-          animation-delay: -14s;
+  animation-delay: -14s;
 }
 
 .word:nth-child(3) {
   -webkit-animation-delay: -12s;
-          animation-delay: -12s;
+  animation-delay: -12s;
 }
 
 .word:nth-child(4) {
   -webkit-animation-delay: -10s;
-          animation-delay: -10s;
+  animation-delay: -10s;
 }
 
 .word:nth-child(5) {
   -webkit-animation-delay: -8s;
-          animation-delay: -8s;
+  animation-delay: -8s;
 }
 
 .word:nth-child(6) {
   -webkit-animation-delay: -6s;
-          animation-delay: -6s;
+  animation-delay: -6s;
 }
 
 .word:nth-child(7) {
   -webkit-animation-delay: -4s;
-          animation-delay: -4s;
+  animation-delay: -4s;
 }
 
 @-webkit-keyframes word {
@@ -72,13 +70,13 @@ body {
   5%,
   100% {
     -webkit-filter: blur(0px);
-            filter: blur(0px);
+    filter: blur(0px);
     opacity: 1;
   }
   20%,
   80% {
     -webkit-filter: blur(1em);
-            filter: blur(1em);
+    filter: blur(1em);
     opacity: 0;
   }
 }
@@ -88,13 +86,13 @@ body {
   5%,
   100% {
     -webkit-filter: blur(0px);
-            filter: blur(0px);
+    filter: blur(0px);
     opacity: 1;
   }
   20%,
   80% {
     -webkit-filter: blur(1em);
-            filter: blur(1em);
+    filter: blur(1em);
     opacity: 0;
   }
 }
